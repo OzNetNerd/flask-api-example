@@ -39,4 +39,4 @@ echo 'Flask' > requirements.txt
 docker build -t flask-api-example .
 
 # Run the Docker container on port 8080
-docker run -d -p 8080:8080 flask-api-example
+docker run -d -p 8080:8080 --name flask-api-example flask-api-example
